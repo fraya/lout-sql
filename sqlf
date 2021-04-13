@@ -1,0 +1,169 @@
+
+###############################################################################
+#                                                                             #
+#  Lout @SQL package for formatting SQL programs (Version 1.0)                #
+#                                                                             #
+#  Version 1.0 by Fernando Raya.                                              #
+#  Based on Pas file by Jeffrey H. Kingston, 22 December 1992.                #
+#                                                                             #
+#  Reference:                                                                 #
+#      https://en.wikipedia.org/wiki/SQL_reserved_words                       #
+#                                                                             #
+#  See LICENSE file                                                           #
+#                                                                             #
+###############################################################################
+
+export	"0" "1" "2" "3" "4" "5" "6" "7" "8" "9"
+	"." "," ":" ";" "'" "`" "+" "-" "*" "/" "(" ")"
+	"[" "]" "^" ".." "=" "<" ">" "<>" "<=" ">=" ":="
+
+	abort abortsession abs absolute access accessible access_lock account
+	acos acosh action add add_months admin after aggregate alias all
+	allocate allow alter alterand amp analyse analyze and ansidate any
+	are array array_agg array_exists array_max_cardinality as asc
+	asensitive asin asinh assertion associate asutime asymmetric at atan
+	atan2 atanh atomic audit authorization aux auxiliary ave average avg
+	
+	array begin case const div do downto else end
+	file for forward function goto if in label mod nil not
+	of or otherwise packed procedure program record repeat
+	set then to type until var while with @Com
+
+def @Pas
+   body @Body
+@Begin
+
+    def @R right x { Base @Font x }
+    def @B right x { Bold @Font x }
+    def @S right x { { Symbol Base } @Font x }
+
+    def "0"	{ @R "0"			}
+    def "1"	{ @R "1"			}
+    def "2"	{ @R "2"			}
+    def "3"	{ @R "3"			}
+    def "4"	{ @R "4"			}
+    def "5"	{ @R "5"			}
+    def "6"	{ @R "6"			}
+    def "7"	{ @R "7"			}
+    def "8"	{ @R "8"			}
+    def "9"	{ @R "9"			}
+    def "."	{ @R "."			}
+    def ","	{ @R ","			}
+    def ":"	{ @R ":"			}
+    def ";"	{ @R ";"			}
+    def "'"	{ @R "'"			}
+    def "`"	{ @R "`"			}
+    def "+"	{ @S "+"			}
+    def "-"	{ @S "-"			}
+    def "*"	{ @S @Char "asteriskmath"	}
+    def "/"	{ @R @Char "fraction"		}
+    def "("	{ @R "("			}
+    def ")"	{ @R ")"			}
+    def "["	{ @R "["			}
+    def "]"	{ @R "]"			}
+    def "^"	{ @S 0.8f @Font @Char "arrowup"	}
+    def ".."	{ @R ".." &0.1f			}
+    def "="	{ @S @Char "equal"		}
+    def "<"	{ @S @Char "less"		}
+    def ">"	{ @S @Char "greater"		}
+    def "<>"	{ @S @Char "notequal"		}
+    def "<="	{ @S @Char "lessequal"		}
+    def ">="	{ @S @Char "greaterequal"	}
+    def ":="	{ :{//0.03fo &0.1f =}		}
+
+    def abort                 { @B "ABORT"                }
+    def abortsession          { @B "ABORTSESSION"         }
+    def abs                   { @B "ABS"                  }
+    def absolute              { @B "ABSOLUTE"             }
+    def access                { @B "ACCESS"               }
+    def accessible            { @B "ACCESSIBLE"           }
+    def access_lock           { @B "ACCESS_LOCK"          }
+    def account               { @B "ACCOUNT"              }
+    def acos                  { @B "ACOS"                 }
+    def acosh                 { @B "ACOSH"                }
+    def action                { @B "ACTION"               }
+    def add                   { @B "ADD"                  }
+    def add_months            { @B "ADD_MONTHS"           }
+    def admin                 { @B "ADMIN"                }
+    def after                 { @B "AFTER"                }
+    def aggregate             { @B "AGGREGATE"            }
+    def alias                 { @B "ALIAS"                }
+    def all                   { @B "ALL"                  }
+    def allocate              { @B "ALLOCATE"             }
+    def allow                 { @B "ALLOW"                }
+    def alter                 { @B "ALTER"                }
+    def alterand              { @B "ALTERAND"             }
+    def amp                   { @B "AMP"                  }
+    def analyse               { @B "ANALYZE"              }
+    def and                   { @B "AND"                  }
+    def ansidate              { @B "ANSIDATE"             }
+    def any                   { @B "ANY"                  }
+    def are                   { @B "ARE"                  }
+    def array                 { @B "ARRAY"                }
+    def array_agg             { @B "ARRAY_AGG"            }
+    def array_exists          { @B "ARRAY_EXISTS"         }
+    def array_max_cardinality { @B "ARRAY_MAX_CARDINALITY }
+    def as                    { @B "AS"                   }
+    def asc                   { @B "ASC"                  }
+    def asensitive            { @B "ASENSITIVE"           }
+    def asin                  { @B "ASIN"                 }
+    def asinh                 { @B "ASINH"                } 
+    def assertion             { @B "ASSERTION"            }
+    def associate             { @B "ASSOCIATE"            }
+    def asutime               { @B "ASUTIME"              }
+    def asymmetric            { @B "ASYMMETRIC"           }
+    def at                    { @B "AT"                   }
+    def atan                  { @B "ATAN"                 }
+    def atan2                 { @B "ATAN2"                }
+    def atanh                 { @B "ATANH"                }
+    def atomic                { @B "ATOMIC"               }
+    def audit                 { @B "AUDIT"                }
+    def authorization         { @B "AUTHORIZATION"        }    
+    def aux                   { @B "AUX"                  } 
+    def auxiliary             { @B "AUXILIARY"            }
+    def ave                   { @B "AVE"                  }
+    def average               { @B "AVERAGE"              }
+    def avg                   { @B "AVG"                  }
+
+    
+    def begin		{ @B "begin"		}
+    def case		{ @B "case"		}
+    def const		{ @B "const"		}
+    def div		{ @B "div"		}
+    def do		{ @B "do"		}
+    def downto		{ @B "downto"		}
+    def else		{ @B "else"		}
+    def end		{ @B "end"		}
+    def file		{ @B "file"		}
+    def for		{ @B "for"		}
+    def forward		{ @B "forward"		}
+    def function	{ @B "function"		}
+    def goto		{ @B "goto"		}
+    def if		{ @B "if"		}
+    def in		{ @B "in"		}
+    def label		{ @B "label"		}
+    def mod		{ @B "mod"		}
+    def nil		{ @B "nil"		}
+    def not		{ @B "not"		}
+    def of		{ @B "of"		}
+    def or		{ @B "or"		}
+    def otherwise	{ @B "otherwise"	}
+    def packed		{ @B "packed"		}
+    def procedure	{ @B "procedure"	}
+    def program		{ @B "program"		}
+    def record		{ @B "record"		}
+    def repeat		{ @B "repeat"		}
+    def set		{ @B "set"		}
+    def then		{ @B "then"		}
+    def to		{ @B "to"		}
+    def type		{ @B "type"		}
+    def until		{ @B "until"		}
+    def var		{ @B "var"		}
+    def while		{ @B "while"		}
+    def with		{ @B "with"		}
+
+    def @Com right x	{ @R "--" x 	}
+
+   Slope @Font lines @Break @Body
+
+@End @Pas

@@ -19,7 +19,7 @@ export	"0" "1" "2" "3" "4" "5" "6" "7" "8" "9"
 
 	abort abortsession abs absolute access accessible access_lock account
 	acos acosh action add add_months admin after aggregate alias all
-	allocate allow alter alterand amp analyse analyze and ansidate any
+	allocate allow alter alterand amp analyse and ansidate any
 	are array array_agg array_exists array_max_cardinality as asc
 	asensitive asin asinh assertion associate asutime asymmetric at atan
 	atantwo atanh atomic audit authorization aux auxiliary ave average avg

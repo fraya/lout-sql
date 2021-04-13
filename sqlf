@@ -22,7 +22,7 @@ export	"0" "1" "2" "3" "4" "5" "6" "7" "8" "9"
 	allocate allow alter alterand amp analyse analyze and ansidate any
 	are array array_agg array_exists array_max_cardinality as asc
 	asensitive asin asinh assertion associate asutime asymmetric at atan
-	atan2 atanh atomic audit authorization aux auxiliary ave average avg
+	atantwo atanh atomic audit authorization aux auxiliary ave average avg
 
 	backup before begin begin_frame begin_partition between bigint binary
 	bit blob boolean both breadth break browse bt bufferpool bulk but by
@@ -118,7 +118,7 @@ def @Sql
     def asymmetric            { @B "ASYMMETRIC"           }
     def at                    { @B "AT"                   }
     def atan                  { @B "ATAN"                 }
-    def atan2                 { @B "ATAN2"                }
+    def atantwo               { @B "ATAN2"                }
     def atanh                 { @B "ATANH"                }
     def atomic                { @B "ATOMIC"               }
     def audit                 { @B "AUDIT"                }

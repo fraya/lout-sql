@@ -106,7 +106,7 @@ def @Sql
     def array                 { @B "ARRAY"                }
     def array_agg             { @B "ARRAY_AGG"            }
     def array_exists          { @B "ARRAY_EXISTS"         }
-    def array_max_cardinality { @B "ARRAY_MAX_CARDINALITY }
+    def array_max_cardinality { @B "ARRAY_MAX_CARDINALITY"}
     def as                    { @B "AS"                   }
     def asc                   { @B "ASC"                  }
     def asensitive            { @B "ASENSITIVE"           }

@@ -27,6 +27,23 @@ export	"0" "1" "2" "3" "4" "5" "6" "7" "8" "9"
 	backup before begin begin_frame begin_partition between bigint binary
 	bit blob boolean both breadth break browse bt bufferpool bulk but by
 	byte byteint bytes
+
+	call called capture cardinality cascade cascaded case casesspecific
+	case_n cast catalog ccsid cd ceil ceiling change char chartowhexint
+	character characters character_length chars char_length check
+	checkpoint class classifier clob clone close cluster clustered cm
+	coalesce collate collation collect collection collid column
+	column_value comment commit completion compress compute concat
+	concurrently condition connect connection constraint constraints
+	constructor contains containstable content continue convert
+	convert_table_header copy corr corresponding cos cosh count
+	covar_pop covar_samp create cross cs csum ct cube cume_dist current
+	current_catalog current_date current_default_transform_group
+	current_lc_type current_path current_role current_row current_schema
+	current_server current_time current_timestamp current_timezone
+	current_transform_group_for_type current_user currval cursor cv
+	cycle 
+
 	
 	case const div do downto else end
 	file for forward function goto if in label mod nil not
@@ -155,7 +172,101 @@ def @Sql
     def bytes                 { @B "BYTES"                }
 
 
-    def case		{ @B "case"		}
+    def	call                  { @B "CALL"                 }
+    def called		      { @B "CALLED"               }
+    capture		      { @B "CAPTURED"             }
+    cardinality		      { @B "CARDINALITY"          }
+    cascade		      { @B "CASCADE"              }
+    cascaded		      { @B "CASCADED"             }
+    case		      { @B "CASE"                 }
+    casespecific	      { @B "CASESPECIFIC"         }
+    case_n		      { @B "CASE_N"               }
+    cast		      { @B "CAST"                 }
+    catalog		      { @B "CATALOG"              }
+    ccsid		      { @B "CCSID"                }
+    cd			      { @B "CD"                   }
+    ceil		      { @B "CEIL"                 }
+    ceiling		      { @B "CEILING"              }
+    change		      { @B "CHANGE"               }
+    char		      { @B "CHAR"                 }
+    chartwohexint	      { @B "CHARTWOHEXINT"        }
+    character		      { @B "CHARACTER"            }
+    characters		      { @B "CHARACTERS"           }
+    character_length	      { @B "CHARACTER_LENGTH"     }
+    chars		      { @B "CHARS"                }
+    char_length		      { @B "CHAR_LENGTH"          }
+    check		      { @B "CHECK"                }
+    checkpoint		      { @B "CHECKPOINT"           }
+    class		      { @B "CLASS"                }
+    classifier		      { @B "CLASSIFIER"           }
+    clob		      { @B "CLOB"                 }
+    clone		      { @B "CLONE"                }
+    close		      { @B "CLOSE"                }
+    cluster		      { @B "CLUSTER"              }
+    clustered		      { @B "CLUSTERED"            }
+    cm			      { @B "CM"                   }
+    coalesce		      { @B "COALESCE"             }
+    collate		      { @B "COLLATE"              }
+    collation		      { @B "COLLATION"            }
+    collect		      { @B "COLLECT"              }
+    collection		      { @B "COLLECTION"           }
+    collid		      { @B "COLLID"               }
+    column		      { @B "COLUMN"               }
+    column_value	      { @B "COLUMN_VALUE"         }
+    comment		      { @B "COMMENT"              }
+    commit		      { @B "COMMIT"               }
+    completion		      { @B "COMPLETION"           }
+    compress		      { @B "COMPRESS"             }
+    compute		      { @B "COMPUTE"              }
+    concat		      { @B "CONCAT"               }
+    concurrently	      { @B "CONCURRENTLY"         }
+    condition		      { @B "CONDITION"            }
+    connect		      { @B "CONNECT"              }
+    connection		      { @B "CONNECTION"           }
+    constraint		      { @B "CONSTRAINT"           }
+    constraints		      { @B "CONSTRAINTS"          }
+    constructor		      { @B "CONSTRUCTOR"          }
+    contains		      { @B "CONTAINS"             }
+    containstable	      { @B "CONTAINSTABLE"        }
+    content		      { @B "CONTENT"              }
+    continue		      { @B "CONTINUE"             }
+    convert		      { @B "CONVERT"              }
+    convert_table_header      { @B "CONVERT_TABLE_HEADER" }
+    copy		      { @B "COPY"                 }
+    corr		      { @B "CORR"                 }
+    corresponding	      { @B "CORRESPONDING"        }
+    cos			      { @B "COS"                  }
+    cosh		      { @B "COSH"                 }
+    count		      { @B "COUNT"                }
+    covar_pop		      { @B "COVAR_POP"            }
+    covar_samp		      { @B "COVAR_SAMP"           }
+    create		      { @B "CREATE"               }
+    cross		      { @B "CROSS"                }
+    cs			      { @B "CS"                   }
+    csum		      { @B "CSUM"                 }
+    ct			      { @B "CT"                   }
+    cube		      { @B "CUBE"                 }
+    cume_dist		      { @B "CUME_DIST             }
+    current		      { @B "CURRENT"              }
+    current_catalog	      { @B "CURRENT_CATALOG"      }
+    current_date	      { @B "CURRENT_DATE"         }
+    current_default_transform_group { @B "CURRENT_DEFAULT_TRANSFORM_GROUP" }
+    current_lc_type           { @B "CURRENT_LC_TYPE"      }
+    current_path	      { @B "CURRENT_PATH"         }
+    current_role	      { @B "CURRENT_ROLE"         }
+    current_row		      { @B "CURRENT_ROW"          }
+    current_schema	      { @B "CURRENT_SCHEMA"       }
+    current_server	      { @B "CURRENT_SERVER"       }
+    current_time	      { @B "CURRENT_TIME"         }
+    current_timestamp	      { @B "CURRENT_TIMESTAMP"    }
+    current_timezone	      { @B "CURRENT_TIMEZONE"     }
+    current_transform_group_for_type { @B "CURRENT_TRANSFORM_GROUP_FOR_TYPE" }
+    current_user              { @B "CURRENT_USER"         }
+    currval                   { @B "CURRVAL"              }
+    cursor                    { @B "CURSOR"               }
+    cv                        { @B "CV"                   }
+    cycle                     { @B "CYCLE"                }
+
     def const		{ @B "const"		}
     def div		{ @B "div"		}
     def do		{ @B "do"		}

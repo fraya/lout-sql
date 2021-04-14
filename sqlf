@@ -267,6 +267,31 @@ def @Sql
     cv                               { @B "CV"                   }
     cycle                            { @B "CYCLE"                }
 
+    def data			     { @B "DATA" 		 }
+    def database		     { @B "DATABASE" 		 }
+    def databases		     { @B "DATABASES" 		 }
+    def datablocksize		     { @B "DATABLOCKSIZE" 	 }
+    def date			     { @B "DATE" 		 }
+    def dateform		     { @B "DATEFORM" 		 }
+    def day			     { @B "DAY" 		 }
+    def das			     { @B "DAS" 		 }
+    def day_hour		     { @B "DAY_HOUR" 		 }
+    def day_microsecond		     { @B "DAY_MICROSECOND" 	 }
+    def day_minute		     { @B "DAY_MINUTE" 		 }
+    def day_second		     { @B "DAY_SECOND" 		 }
+    def dbcc			     { @B "DBCC" 		 }
+    def dbinfo			     { @B "DBINFO" 		 }
+    def deallocate		     { @B "DEALLOCATE" 		 }
+    def dec			     { @B "DEC" 		 }
+    def decfloat		     { @B "DECFLOAT" 		 }
+    def decimal			     { @B "DECIMAL" 		 }
+    def declare			     { @B "DECLARE" 		 }
+    def default			     { @B "DEFAULT" 		 }
+    def deferrable		     { @B "DEFERRABLE" 		 }
+    def deferred		     { @B "DEFERRED" 		 }
+    def define			     { @B "DEFINE" 		 }
+    def degree			     { @B "DEGREE" 		 }
+
     def const		{ @B "const"		}
     def div		{ @B "div"		}
     def do		{ @B "do"		}

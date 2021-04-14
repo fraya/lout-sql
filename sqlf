@@ -58,214 +58,214 @@ def @Sql
     def @B right x { Bold @Font x }
     def @S right x { { Symbol Base } @Font x }
 
-    def "0"	{ @R "0"			}
-    def "1"	{ @R "1"			}
-    def "2"	{ @R "2"			}
-    def "3"	{ @R "3"			}
-    def "4"	{ @R "4"			}
-    def "5"	{ @R "5"			}
-    def "6"	{ @R "6"			}
-    def "7"	{ @R "7"			}
-    def "8"	{ @R "8"			}
-    def "9"	{ @R "9"			}
-    def "."	{ @R "."			}
-    def ","	{ @R ","			}
-    def ":"	{ @R ":"			}
-    def ";"	{ @R ";"			}
-    def "'"	{ @R "'"			}
-    def "`"	{ @R "`"			}
-    def "+"	{ @S "+"			}
-    def "-"	{ @S "-"			}
-    def "*"	{ @S @Char "asteriskmath"	}
-    def "/"	{ @R @Char "fraction"		}
-    def "("	{ @R "("			}
-    def ")"	{ @R ")"			}
-    def "["	{ @R "["			}
-    def "]"	{ @R "]"			}
-    def "^"	{ @S 0.8f @Font @Char "arrowup"	}
-    def ".."	{ @R ".." &0.1f			}
-    def "="	{ @S @Char "equal"		}
-    def "<"	{ @S @Char "less"		}
-    def ">"	{ @S @Char "greater"		}
-    def "<>"	{ @S @Char "notequal"		}
-    def "<="	{ @S @Char "lessequal"		}
-    def ">="	{ @S @Char "greaterequal"	}
-    def ":="	{ :{//0.03fo &0.1f =}		}
+    def "0"	                     { @R "0"			 }
+    def "1"			     { @R "1"			 }
+    def "2"			     { @R "2"			 }
+    def "3"			     { @R "3"			 }
+    def "4"			     { @R "4"			 }
+    def "5"			     { @R "5"			 }
+    def "6"			     { @R "6"			 }
+    def "7"			     { @R "7"			 }
+    def "8"			     { @R "8"			 }
+    def "9"			     { @R "9"			 }
+    def "."			     { @R "."			 }
+    def ","			     { @R ","			 }
+    def ":"			     { @R ":"			 }
+    def ";"			     { @R ";"			 }
+    def "'"			     { @R "'"			 }
+    def "`"			     { @R "`"			 }
+    def "+"			     { @S "+"			 }
+    def "-"			     { @S "-"			 }
+    def "*"			     { @S @Char "asteriskmath"	 }
+    def "/"			     { @R @Char "fraction"	 }
+    def "("			     { @R "("			 }
+    def ")"			     { @R ")"			 }
+    def "["			     { @R "["			 }
+    def "]"			     { @R "]"			 }
+    def "^"			     { @S 0.8f @Font @Char "arrowup"	}
+    def ".."			     { @R ".." &0.1f		 }
+    def "="			     { @S @Char "equal"		 }
+    def "<"			     { @S @Char "less"		 }
+    def ">"			     { @S @Char "greater"	 }
+    def "<>"			     { @S @Char "notequal"	 }
+    def "<="			     { @S @Char "lessequal"	 }
+    def ">="			     { @S @Char "greaterequal"	 }
+    def ":="			     { :{//0.03fo &0.1f =}	 }
 
-    def abort                 { @B "ABORT"                }
-    def abortsession          { @B "ABORTSESSION"         }
-    def abs                   { @B "ABS"                  }
-    def absolute              { @B "ABSOLUTE"             }
-    def access                { @B "ACCESS"               }
-    def accessible            { @B "ACCESSIBLE"           }
-    def access_lock           { @B "ACCESS_LOCK"          }
-    def account               { @B "ACCOUNT"              }
-    def acos                  { @B "ACOS"                 }
-    def acosh                 { @B "ACOSH"                }
-    def action                { @B "ACTION"               }
-    def add                   { @B "ADD"                  }
-    def add_months            { @B "ADD_MONTHS"           }
-    def admin                 { @B "ADMIN"                }
-    def after                 { @B "AFTER"                }
-    def aggregate             { @B "AGGREGATE"            }
-    def alias                 { @B "ALIAS"                }
-    def all                   { @B "ALL"                  }
-    def allocate              { @B "ALLOCATE"             }
-    def allow                 { @B "ALLOW"                }
-    def alter                 { @B "ALTER"                }
-    def alterand              { @B "ALTERAND"             }
-    def amp                   { @B "AMP"                  }
-    def analyse               { @B "ANALYZE"              }
-    def and                   { @B "AND"                  }
-    def ansidate              { @B "ANSIDATE"             }
-    def any                   { @B "ANY"                  }
-    def are                   { @B "ARE"                  }
-    def array                 { @B "ARRAY"                }
-    def array_agg             { @B "ARRAY_AGG"            }
-    def array_exists          { @B "ARRAY_EXISTS"         }
-    def array_max_cardinality { @B "ARRAY_MAX_CARDINALITY"}
-    def as                    { @B "AS"                   }
-    def asc                   { @B "ASC"                  }
-    def asensitive            { @B "ASENSITIVE"           }
-    def asin                  { @B "ASIN"                 }
-    def asinh                 { @B "ASINH"                } 
-    def assertion             { @B "ASSERTION"            }
-    def associate             { @B "ASSOCIATE"            }
-    def asutime               { @B "ASUTIME"              }
-    def asymmetric            { @B "ASYMMETRIC"           }
-    def at                    { @B "AT"                   }
-    def atan                  { @B "ATAN"                 }
-    def atantwo               { @B "ATAN2"                }
-    def atanh                 { @B "ATANH"                }
-    def atomic                { @B "ATOMIC"               }
-    def audit                 { @B "AUDIT"                }
-    def authorization         { @B "AUTHORIZATION"        }    
-    def aux                   { @B "AUX"                  } 
-    def auxiliary             { @B "AUXILIARY"            }
-    def ave                   { @B "AVE"                  }
-    def average               { @B "AVERAGE"              }
-    def avg                   { @B "AVG"                  }
+    def abort                        { @B "ABORT"                }
+    def abortsession          	     { @B "ABORTSESSION"         }
+    def abs                   	     { @B "ABS"                  }
+    def absolute              	     { @B "ABSOLUTE"             }
+    def access                	     { @B "ACCESS"               }
+    def accessible            	     { @B "ACCESSIBLE"           }
+    def access_lock           	     { @B "ACCESS_LOCK"          }
+    def account               	     { @B "ACCOUNT"              }
+    def acos                  	     { @B "ACOS"                 }
+    def acosh                 	     { @B "ACOSH"                }
+    def action                	     { @B "ACTION"               }
+    def add                   	     { @B "ADD"                  }
+    def add_months            	     { @B "ADD_MONTHS"           }
+    def admin                 	     { @B "ADMIN"                }
+    def after                 	     { @B "AFTER"                }
+    def aggregate             	     { @B "AGGREGATE"            }
+    def alias                 	     { @B "ALIAS"                }
+    def all                   	     { @B "ALL"                  }
+    def allocate              	     { @B "ALLOCATE"             }
+    def allow                 	     { @B "ALLOW"                }
+    def alter                 	     { @B "ALTER"                }
+    def alterand              	     { @B "ALTERAND"             }
+    def amp                   	     { @B "AMP"                  }
+    def analyse               	     { @B "ANALYZE"              }
+    def and                   	     { @B "AND"                  }
+    def ansidate              	     { @B "ANSIDATE"             }
+    def any                   	     { @B "ANY"                  }
+    def are                   	     { @B "ARE"                  }
+    def array                 	     { @B "ARRAY"                }
+    def array_agg             	     { @B "ARRAY_AGG"            }
+    def array_exists          	     { @B "ARRAY_EXISTS"         }
+    def array_max_cardinality 	     { @B "ARRAY_MAX_CARDINALITY"}
+    def as                    	     { @B "AS"                   }
+    def asc                   	     { @B "ASC"                  }
+    def asensitive            	     { @B "ASENSITIVE"           }
+    def asin                  	     { @B "ASIN"                 }
+    def asinh                 	     { @B "ASINH"                } 
+    def assertion             	     { @B "ASSERTION"            }
+    def associate             	     { @B "ASSOCIATE"            }
+    def asutime               	     { @B "ASUTIME"              }
+    def asymmetric            	     { @B "ASYMMETRIC"           }
+    def at                    	     { @B "AT"                   }
+    def atan                  	     { @B "ATAN"                 }
+    def atantwo               	     { @B "ATAN2"                }
+    def atanh                 	     { @B "ATANH"                }
+    def atomic                	     { @B "ATOMIC"               }
+    def audit                 	     { @B "AUDIT"                }
+    def authorization        	     { @B "AUTHORIZATION"        }    
+    def aux                   	     { @B "AUX"                  } 
+    def auxiliary             	     { @B "AUXILIARY"            }
+    def ave                   	     { @B "AVE"                  }
+    def average               	     { @B "AVERAGE"              }
+    def avg                   	     { @B "AVG"                  }
 
     
-    def backup                { @B "BACKUP"               } 
-    def before                { @B "BEFORE"               }
-    def begin                 { @B "BEGIN"                }
-    def begin_frame           { @B "BEGIN_FRAME"          }
-    def begin_partition       { @B "BEGIN_PARTITION"      }
-    def between               { @B "BETWEEN"              }
-    def bigint                { @B "BIGINT"               }
-    def binary                { @B "BINARY"               }
-    def bit                   { @B "BIT"                  }
-    def blob                  { @B "BLOB"                 }
-    def boolean               { @B "BOOLEAN"              }
-    def both                  { @B "BOTH"                 }
-    def breadth               { @B "BREADTH"              }
-    def break                 { @B "BREAK"                }
-    def browse                { @B "BROWSE"               }
-    def bt                    { @B "BT"                   }
-    def bufferpool            { @B "BUFFERPOOL"           }
-    def bulk                  { @B "BULK"                 }
-    def but                   { @B "BUT"                  }
-    def by                    { @B "BY"                   }
-    def byte                  { @B "BYTE"                 }
-    def byteint               { @B "BYTEINT"              }
-    def bytes                 { @B "BYTES"                }
+    def backup                       { @B "BACKUP"               } 
+    def before                	     { @B "BEFORE"               }
+    def begin                 	     { @B "BEGIN"                }
+    def begin_frame           	     { @B "BEGIN_FRAME"          }
+    def begin_partition       	     { @B "BEGIN_PARTITION"      }
+    def between               	     { @B "BETWEEN"              }
+    def bigint                	     { @B "BIGINT"               }
+    def binary                	     { @B "BINARY"               }
+    def bit                   	     { @B "BIT"                  }
+    def blob                  	     { @B "BLOB"                 }
+    def boolean               	     { @B "BOOLEAN"              }
+    def both                  	     { @B "BOTH"                 }
+    def breadth               	     { @B "BREADTH"              }
+    def break                 	     { @B "BREAK"                }
+    def browse                	     { @B "BROWSE"               }
+    def bt                    	     { @B "BT"                   }
+    def bufferpool            	     { @B "BUFFERPOOL"           }
+    def bulk                  	     { @B "BULK"                 }
+    def but                   	     { @B "BUT"                  }
+    def by                    	     { @B "BY"                   }
+    def byte                  	     { @B "BYTE"                 }
+    def byteint               	     { @B "BYTEINT"              }
+    def bytes                 	     { @B "BYTES"                }
 
 
-    def	call                  { @B "CALL"                 }
-    def called		      { @B "CALLED"               }
-    capture		      { @B "CAPTURED"             }
-    cardinality		      { @B "CARDINALITY"          }
-    cascade		      { @B "CASCADE"              }
-    cascaded		      { @B "CASCADED"             }
-    case		      { @B "CASE"                 }
-    casespecific	      { @B "CASESPECIFIC"         }
-    case_n		      { @B "CASE_N"               }
-    cast		      { @B "CAST"                 }
-    catalog		      { @B "CATALOG"              }
-    ccsid		      { @B "CCSID"                }
-    cd			      { @B "CD"                   }
-    ceil		      { @B "CEIL"                 }
-    ceiling		      { @B "CEILING"              }
-    change		      { @B "CHANGE"               }
-    char		      { @B "CHAR"                 }
-    chartwohexint	      { @B "CHARTWOHEXINT"        }
-    character		      { @B "CHARACTER"            }
-    characters		      { @B "CHARACTERS"           }
-    character_length	      { @B "CHARACTER_LENGTH"     }
-    chars		      { @B "CHARS"                }
-    char_length		      { @B "CHAR_LENGTH"          }
-    check		      { @B "CHECK"                }
-    checkpoint		      { @B "CHECKPOINT"           }
-    class		      { @B "CLASS"                }
-    classifier		      { @B "CLASSIFIER"           }
-    clob		      { @B "CLOB"                 }
-    clone		      { @B "CLONE"                }
-    close		      { @B "CLOSE"                }
-    cluster		      { @B "CLUSTER"              }
-    clustered		      { @B "CLUSTERED"            }
-    cm			      { @B "CM"                   }
-    coalesce		      { @B "COALESCE"             }
-    collate		      { @B "COLLATE"              }
-    collation		      { @B "COLLATION"            }
-    collect		      { @B "COLLECT"              }
-    collection		      { @B "COLLECTION"           }
-    collid		      { @B "COLLID"               }
-    column		      { @B "COLUMN"               }
-    column_value	      { @B "COLUMN_VALUE"         }
-    comment		      { @B "COMMENT"              }
-    commit		      { @B "COMMIT"               }
-    completion		      { @B "COMPLETION"           }
-    compress		      { @B "COMPRESS"             }
-    compute		      { @B "COMPUTE"              }
-    concat		      { @B "CONCAT"               }
-    concurrently	      { @B "CONCURRENTLY"         }
-    condition		      { @B "CONDITION"            }
-    connect		      { @B "CONNECT"              }
-    connection		      { @B "CONNECTION"           }
-    constraint		      { @B "CONSTRAINT"           }
-    constraints		      { @B "CONSTRAINTS"          }
-    constructor		      { @B "CONSTRUCTOR"          }
-    contains		      { @B "CONTAINS"             }
-    containstable	      { @B "CONTAINSTABLE"        }
-    content		      { @B "CONTENT"              }
-    continue		      { @B "CONTINUE"             }
-    convert		      { @B "CONVERT"              }
-    convert_table_header      { @B "CONVERT_TABLE_HEADER" }
-    copy		      { @B "COPY"                 }
-    corr		      { @B "CORR"                 }
-    corresponding	      { @B "CORRESPONDING"        }
-    cos			      { @B "COS"                  }
-    cosh		      { @B "COSH"                 }
-    count		      { @B "COUNT"                }
-    covar_pop		      { @B "COVAR_POP"            }
-    covar_samp		      { @B "COVAR_SAMP"           }
-    create		      { @B "CREATE"               }
-    cross		      { @B "CROSS"                }
-    cs			      { @B "CS"                   }
-    csum		      { @B "CSUM"                 }
-    ct			      { @B "CT"                   }
-    cube		      { @B "CUBE"                 }
-    cume_dist		      { @B "CUME_DIST             }
-    current		      { @B "CURRENT"              }
-    current_catalog	      { @B "CURRENT_CATALOG"      }
-    current_date	      { @B "CURRENT_DATE"         }
-    current_default_transform_group { @B "CURRENT_DEFAULT_TRANSFORM_GROUP" }
-    current_lc_type           { @B "CURRENT_LC_TYPE"      }
-    current_path	      { @B "CURRENT_PATH"         }
-    current_role	      { @B "CURRENT_ROLE"         }
-    current_row		      { @B "CURRENT_ROW"          }
-    current_schema	      { @B "CURRENT_SCHEMA"       }
-    current_server	      { @B "CURRENT_SERVER"       }
-    current_time	      { @B "CURRENT_TIME"         }
-    current_timestamp	      { @B "CURRENT_TIMESTAMP"    }
-    current_timezone	      { @B "CURRENT_TIMEZONE"     }
+    def	call                         { @B "CALL"                 }
+    def called		      	     { @B "CALLED"               }
+    capture		      	     { @B "CAPTURED"             }
+    cardinality		      	     { @B "CARDINALITY"          }
+    cascade		             { @B "CASCADE"              }
+    cascaded		             { @B "CASCADED"             }
+    case		      	     { @B "CASE"                 }
+    casespecific	      	     { @B "CASESPECIFIC"         }
+    case_n		      	     { @B "CASE_N"               }
+    cast		      	     { @B "CAST"                 }
+    catalog		      	     { @B "CATALOG"              }
+    ccsid		      	     { @B "CCSID"                }
+    cd			      	     { @B "CD"                   }
+    ceil		      	     { @B "CEIL"                 }
+    ceiling		      	     { @B "CEILING"              }
+    change		      	     { @B "CHANGE"               }
+    char		      	     { @B "CHAR"                 }
+    chartwohexint	      	     { @B "CHARTWOHEXINT"        }
+    character		      	     { @B "CHARACTER"            }
+    characters		      	     { @B "CHARACTERS"           }
+    character_length	      	     { @B "CHARACTER_LENGTH"     }
+    chars		      	     { @B "CHARS"                }
+    char_length		      	     { @B "CHAR_LENGTH"          }
+    check		      	     { @B "CHECK"                }
+    checkpoint		      	     { @B "CHECKPOINT"           }
+    class		      	     { @B "CLASS"                }
+    classifier		      	     { @B "CLASSIFIER"           }
+    clob		      	     { @B "CLOB"                 }
+    clone		      	     { @B "CLONE"                }
+    close		      	     { @B "CLOSE"                }
+    cluster		      	     { @B "CLUSTER"              }
+    clustered		      	     { @B "CLUSTERED"            }
+    cm			      	     { @B "CM"                   }
+    coalesce		      	     { @B "COALESCE"             }
+    collate		      	     { @B "COLLATE"              }
+    collation		      	     { @B "COLLATION"            }
+    collect		      	     { @B "COLLECT"              }
+    collection		      	     { @B "COLLECTION"           }
+    collid		      	     { @B "COLLID"               }
+    column		      	     { @B "COLUMN"               }
+    column_value	      	     { @B "COLUMN_VALUE"         }
+    comment		      	     { @B "COMMENT"              }
+    commit		      	     { @B "COMMIT"               }
+    completion		      	     { @B "COMPLETION"           }
+    compress		      	     { @B "COMPRESS"             }
+    compute		      	     { @B "COMPUTE"              }
+    concat		      	     { @B "CONCAT"               }
+    concurrently	      	     { @B "CONCURRENTLY"         }
+    condition		      	     { @B "CONDITION"            }
+    connect		      	     { @B "CONNECT"              }
+    connection		      	     { @B "CONNECTION"           }
+    constraint		      	     { @B "CONSTRAINT"           }
+    constraints		      	     { @B "CONSTRAINTS"          }
+    constructor		      	     { @B "CONSTRUCTOR"          }
+    contains		      	     { @B "CONTAINS"             }
+    containstable	      	     { @B "CONTAINSTABLE"        }
+    content		      	     { @B "CONTENT"              }
+    continue		      	     { @B "CONTINUE"             }
+    convert		      	     { @B "CONVERT"              }
+    convert_table_header      	     { @B "CONVERT_TABLE_HEADER" }
+    copy		      	     { @B "COPY"                 }
+    corr		      	     { @B "CORR"                 }
+    corresponding	      	     { @B "CORRESPONDING"        }
+    cos			      	     { @B "COS"                  }
+    cosh		      	     { @B "COSH"                 }
+    count		      	     { @B "COUNT"                }
+    covar_pop		             { @B "COVAR_POP"            }
+    covar_samp		             { @B "COVAR_SAMP"           }
+    create		             { @B "CREATE"               }
+    cross		             { @B "CROSS"                }
+    cs			             { @B "CS"                   }
+    csum		             { @B "CSUM"                 }
+    ct			             { @B "CT"                   }
+    cube		             { @B "CUBE"                 }
+    cume_dist		             { @B "CUME_DIST             }
+    current		             { @B "CURRENT"              }
+    current_catalog	      	     { @B "CURRENT_CATALOG"      }
+    current_date	      	     { @B "CURRENT_DATE"         }
+    current_default_transform_group  { @B "CURRENT_DEFAULT_TRANSFORM_GROUP" }
+    current_lc_type                  { @B "CURRENT_LC_TYPE"      }
+    current_path	             { @B "CURRENT_PATH"         }
+    current_role	             { @B "CURRENT_ROLE"         }
+    current_row		             { @B "CURRENT_ROW"          }
+    current_schema	             { @B "CURRENT_SCHEMA"       }
+    current_server	             { @B "CURRENT_SERVER"       }
+    current_time	             { @B "CURRENT_TIME"         }
+    current_timestamp	             { @B "CURRENT_TIMESTAMP"    }
+    current_timezone	             { @B "CURRENT_TIMEZONE"     }
     current_transform_group_for_type { @B "CURRENT_TRANSFORM_GROUP_FOR_TYPE" }
-    current_user              { @B "CURRENT_USER"         }
-    currval                   { @B "CURRVAL"              }
-    cursor                    { @B "CURSOR"               }
-    cv                        { @B "CV"                   }
-    cycle                     { @B "CYCLE"                }
+    current_user                     { @B "CURRENT_USER"         }
+    currval                          { @B "CURRVAL"              }
+    cursor                           { @B "CURSOR"               }
+    cv                               { @B "CV"                   }
+    cycle                            { @B "CYCLE"                }
 
     def const		{ @B "const"		}
     def div		{ @B "div"		}

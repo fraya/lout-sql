@@ -260,7 +260,7 @@ def @Sql
     csum		             { @B "CSUM"                 }
     ct			             { @B "CT"                   }
     cube		             { @B "CUBE"                 }
-    cume_dist		             { @B "CUME_DIST             }
+    cume_dist		             { @B "CUME_DIST"            }
     current		             { @B "CURRENT"              }
     current_catalog	      	     { @B "CURRENT_CATALOG"      }
     current_date	      	     { @B "CURRENT_DATE"         }

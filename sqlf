@@ -44,6 +44,14 @@ export	"0" "1" "2" "3" "4" "5" "6" "7" "8" "9"
 	current_transform_group_for_type current_user currval cursor cv
 	cycle 
 
+	data database databases datablocksize date dateform day days
+	day_hour day_microsecond day_minute day_second dbcc dbinfo
+	deallocate dec decfloat decimal declare default deferrable
+	deferred define degrees del delayed delete dense_rank deny
+	depth deref desc describe descriptor destroy destructor
+	deterministic diagnostic diagnostics dictionary disable
+	disallow disconnect disk distinct distinctrow distributed
+	div do document domain double drop dssize dual dump dynamic
 	
 	case const div do downto else end
 	file for forward function goto if in label mod nil not

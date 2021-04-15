@@ -186,100 +186,100 @@ def @Sql
     def bytes                 	     { @B "BYTES"                }
 
 
-    def	call                         { @B "CALL"                 }
-    def called		      	     { @B "CALLED"               }
-    capture		      	     { @B "CAPTURED"             }
-    cardinality		      	     { @B "CARDINALITY"          }
-    cascade		             { @B "CASCADE"              }
-    cascaded		             { @B "CASCADED"             }
-    case		      	     { @B "CASE"                 }
-    casespecific	      	     { @B "CASESPECIFIC"         }
-    case_n		      	     { @B "CASE_N"               }
-    cast		      	     { @B "CAST"                 }
-    catalog		      	     { @B "CATALOG"              }
-    ccsid		      	     { @B "CCSID"                }
-    cd			      	     { @B "CD"                   }
-    ceil		      	     { @B "CEIL"                 }
-    ceiling		      	     { @B "CEILING"              }
-    change		      	     { @B "CHANGE"               }
-    char		      	     { @B "CHAR"                 }
-    chartwohexint	      	     { @B "CHARTWOHEXINT"        }
-    character		      	     { @B "CHARACTER"            }
-    characters		      	     { @B "CHARACTERS"           }
-    character_length	      	     { @B "CHARACTER_LENGTH"     }
-    chars		      	     { @B "CHARS"                }
-    char_length		      	     { @B "CHAR_LENGTH"          }
-    check		      	     { @B "CHECK"                }
-    checkpoint		      	     { @B "CHECKPOINT"           }
-    class		      	     { @B "CLASS"                }
-    classifier		      	     { @B "CLASSIFIER"           }
-    clob		      	     { @B "CLOB"                 }
-    clone		      	     { @B "CLONE"                }
-    close		      	     { @B "CLOSE"                }
-    cluster		      	     { @B "CLUSTER"              }
-    clustered		      	     { @B "CLUSTERED"            }
-    cm			      	     { @B "CM"                   }
-    coalesce		      	     { @B "COALESCE"             }
-    collate		      	     { @B "COLLATE"              }
-    collation		      	     { @B "COLLATION"            }
-    collect		      	     { @B "COLLECT"              }
-    collection		      	     { @B "COLLECTION"           }
-    collid		      	     { @B "COLLID"               }
-    column		      	     { @B "COLUMN"               }
-    column_value	      	     { @B "COLUMN_VALUE"         }
-    comment		      	     { @B "COMMENT"              }
-    commit		      	     { @B "COMMIT"               }
-    completion		      	     { @B "COMPLETION"           }
-    compress		      	     { @B "COMPRESS"             }
-    compute		      	     { @B "COMPUTE"              }
-    concat		      	     { @B "CONCAT"               }
-    concurrently	      	     { @B "CONCURRENTLY"         }
-    condition		      	     { @B "CONDITION"            }
-    connect		      	     { @B "CONNECT"              }
-    connection		      	     { @B "CONNECTION"           }
-    constraint		      	     { @B "CONSTRAINT"           }
-    constraints		      	     { @B "CONSTRAINTS"          }
-    constructor		      	     { @B "CONSTRUCTOR"          }
-    contains		      	     { @B "CONTAINS"             }
-    containstable	      	     { @B "CONTAINSTABLE"        }
-    content		      	     { @B "CONTENT"              }
-    continue		      	     { @B "CONTINUE"             }
-    convert		      	     { @B "CONVERT"              }
-    convert_table_header      	     { @B "CONVERT_TABLE_HEADER" }
-    copy		      	     { @B "COPY"                 }
-    corr		      	     { @B "CORR"                 }
-    corresponding	      	     { @B "CORRESPONDING"        }
-    cos			      	     { @B "COS"                  }
-    cosh		      	     { @B "COSH"                 }
-    count		      	     { @B "COUNT"                }
-    covar_pop		             { @B "COVAR_POP"            }
-    covar_samp		             { @B "COVAR_SAMP"           }
-    create		             { @B "CREATE"               }
-    cross		             { @B "CROSS"                }
-    cs			             { @B "CS"                   }
-    csum		             { @B "CSUM"                 }
-    ct			             { @B "CT"                   }
-    cube		             { @B "CUBE"                 }
-    cume_dist		             { @B "CUME_DIST"            }
-    current		             { @B "CURRENT"              }
-    current_catalog	      	     { @B "CURRENT_CATALOG"      }
-    current_date	      	     { @B "CURRENT_DATE"         }
-    current_default_transform_group  { @B "CURRENT_DEFAULT_TRANSFORM_GROUP" }
-    current_lc_type                  { @B "CURRENT_LC_TYPE"      }
-    current_path	             { @B "CURRENT_PATH"         }
-    current_role	             { @B "CURRENT_ROLE"         }
-    current_row		             { @B "CURRENT_ROW"          }
-    current_schema	             { @B "CURRENT_SCHEMA"       }
-    current_server	             { @B "CURRENT_SERVER"       }
-    current_time	             { @B "CURRENT_TIME"         }
-    current_timestamp	             { @B "CURRENT_TIMESTAMP"    }
-    current_timezone	             { @B "CURRENT_TIMEZONE"     }
-    current_transform_group_for_type { @B "CURRENT_TRANSFORM_GROUP_FOR_TYPE" }
-    current_user                     { @B "CURRENT_USER"         }
-    currval                          { @B "CURRVAL"              }
-    cursor                           { @B "CURSOR"               }
-    cv                               { @B "CV"                   }
-    cycle                            { @B "CYCLE"                }
+    def call 			     { @B "CALL"                 }
+    def called			     { @B "CALLED"               }
+    def capture 		     { @B "CAPTURED"             }
+    def cardinality		     { @B "CARDINALITY"          }
+    def cascade 		     { @B "CASCADE"              }
+    def cascaded	             { @B "CASCADED"             }
+    def case		      	     { @B "CASE"                 }
+    def casespecific	      	     { @B "CASESPECIFIC"         }
+    def case_n		      	     { @B "CASE_N"               }
+    def cast		      	     { @B "CAST"                 }
+    def catalog 		     { @B "CATALOG"              }
+    def ccsid		      	     { @B "CCSID"                }
+    def cd		      	     { @B "CD"                   }
+    def ceil		      	     { @B "CEIL"                 }
+    def ceiling 		     { @B "CEILING"              }
+    def change		      	     { @B "CHANGE"               }
+    def char		      	     { @B "CHAR"                 }
+    def chartwohexint	      	     { @B "CHARTWOHEXINT"        }
+    def character	      	     { @B "CHARACTER"            }
+    def characters	      	     { @B "CHARACTERS"           }
+    def character_length      	     { @B "CHARACTER_LENGTH"     }
+    def chars		      	     { @B "CHARS"                }
+    def char_length      	     { @B "CHAR_LENGTH"          }
+    def check		      	     { @B "CHECK"                }
+    def checkpoint	      	     { @B "CHECKPOINT"           }
+    def class			     { @B "CLASS"                }
+    def classifier	      	     { @B "CLASSIFIER"           }
+    def clob		      	     { @B "CLOB"                 }
+    def clone		      	     { @B "CLONE"                }
+    def close		      	     { @B "CLOSE"                }
+    def cluster 		     { @B "CLUSTER"              }
+    def clustered	      	     { @B "CLUSTERED"            }
+    def cm		      	     { @B "CM"                   }
+    def coalesce	      	     { @B "COALESCE"             }
+    def collate 		     { @B "COLLATE"              }
+    def collation	      	     { @B "COLLATION"            }
+    def collect 		     { @B "COLLECT"              }
+    def collection	      	     { @B "COLLECTION"           }
+    def collid		      	     { @B "COLLID"               }
+    def column		      	     { @B "COLUMN"               }
+    def column_value	      	     { @B "COLUMN_VALUE"         }
+    def comment 		     { @B "COMMENT"              }
+    def commit		      	     { @B "COMMIT"               }
+    def completion	      	     { @B "COMPLETION"           }
+    def compress	      	     { @B "COMPRESS"             }
+    def compute 		     { @B "COMPUTE"              }
+    def concat		      	     { @B "CONCAT"               }
+    def concurrently	      	     { @B "CONCURRENTLY"         }
+    def condition	      	     { @B "CONDITION"            }
+    def connect 		     { @B "CONNECT"              }
+    def connection      	     { @B "CONNECTION"           }
+    def constraint	      	     { @B "CONSTRAINT"           }
+    def constraints	      	     { @B "CONSTRAINTS"          }
+    def constructor	      	     { @B "CONSTRUCTOR"          }
+    def contains	      	     { @B "CONTAINS"             }
+    def containstable	      	     { @B "CONTAINSTABLE"        }
+    def content 		     { @B "CONTENT"              }
+    def continue	      	     { @B "CONTINUE"             }
+    def convert 		     { @B "CONVERT"              }
+    def convert_table_header 	     { @B "CONVERT_TABLE_HEADER" }
+    def copy		      	     { @B "COPY"                 }
+    def corr		      	     { @B "CORR"                 }
+    def corresponding	      	     { @B "CORRESPONDING"        }
+    def cos		      	     { @B "COS"                  }
+    def cosh		      	     { @B "COSH"                 }
+    def count		      	     { @B "COUNT"                }
+    def covar_pop	             { @B "COVAR_POP"            }
+    def covar_samp	             { @B "COVAR_SAMP"           }
+    def create		             { @B "CREATE"               }
+    def cross		             { @B "CROSS"                }
+    def cs		             { @B "CS"                   }
+    def csum		             { @B "CSUM"                 }
+    def ct		             { @B "CT"                   }
+    def cube		             { @B "CUBE"                 }
+    def cume_dist	             { @B "CUME_DIST"            }
+    def current 		     { @B "CURRENT"              }
+    def current_catalog 	     { @B "CURRENT_CATALOG"      }
+    def current_date	      	     { @B "CURRENT_DATE"         }
+    def current_default_transform_group  { @B "CURRENT_DEFAULT_TRANSFORM_GROUP" }
+    def current_lc_type             { @B "CURRENT_LC_TYPE"      }
+    def current_path	             { @B "CURRENT_PATH"         }
+    def current_role	             { @B "CURRENT_ROLE"         }
+    def current_row	             { @B "CURRENT_ROW"          }
+    def current_schema	             { @B "CURRENT_SCHEMA"       }
+    def current_server	             { @B "CURRENT_SERVER"       }
+    def current_time	             { @B "CURRENT_TIME"         }
+    def current_timestamp           { @B "CURRENT_TIMESTAMP"    }
+    def current_timezone            { @B "CURRENT_TIMEZONE"     }
+    def current_transform_group_for_type { @B "CURRENT_TRANSFORM_GROUP_FOR_TYPE" }
+    def current_user                { @B "CURRENT_USER"         }
+    def currval                     { @B "CURRVAL"              }
+    def cursor                      { @B "CURSOR"               }
+    def cv                          { @B "CV"                   }
+    def cycle                       { @B "CYCLE"                }
 
     def data			     { @B "DATA" 		 }
     def database		     { @B "DATABASE" 		 }
@@ -345,7 +345,7 @@ def @Sql
     def external		     { @B "EXTERNAL" 		 }
     def extract                      { @B "EXTRACT" 		 }
 
-    def @Com right x	             { @R "--" x 		 }
+    def @Com right x                 { @R "--" x 		 }
 
    Slope @Font lines @Break @Body
 

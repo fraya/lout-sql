@@ -58,6 +58,11 @@ export	"0" "1" "2" "3" "4" "5" "6" "7" "8" "9"
 	eq equals erase errlvl error errorfiles errortables escape
 	escaped et every except exception exclusive exec execute exists
 	exit exp explain external extract
+
+	fallback false fastexport fenced fetch fieldproc file fillfactor
+	filter final first first_value float floor for force foreign
+	format found frame_row free freespace freetext freetexttable
+	freeze from full fulltext function fusion
 	
 	@Com
 
@@ -378,6 +383,37 @@ def @Sql
     def external		     { @Keyword "EXTERNAL" 		 }
     def extract                      { @Keyword "EXTRACT" 		 }
 
+    def fallback		     { @Keyword "FALLBACK" 		 }
+    def false			     { @Keyword "FALSE" 		 }
+    def fastexport		     { @Keyword "FASTEXPORT" 		 }
+    def fenced			     { @Keyword "FENCED" 		 }
+    def fetch			     { @Keyword "FETCH" 		 }
+    def fieldproc		     { @Keyword "FIELDPROC" 		 }
+    def file			     { @Keyword "FILE" 			 }
+    def fillfactor		     { @Keyword "FILLFACTOR" 		 }
+    def filter			     { @Keyword "FILTER" 		 }
+    def final			     { @Keyword "FINAL" 		 }
+    def first			     { @Keyword "FIRST" 		 }
+    def first_value		     { @Keyword "FIRST_VALUE" 		 }
+    def float			     { @Keyword "FLOAT" 		 }
+    def floor			     { @Keyword "FLOOR" 		 }
+    def for			     { @Keyword "FOR" 			 }
+    def force			     { @Keyword "FORCE" 		 }
+    def foreign			     { @Keyword "FOREIGN" 		 }
+    def format			     { @Keyword "FORMAT" 		 }
+    def found			     { @Keyword "FOUND" 		 }
+    def frame_row		     { @Keyword "FRAME_ROW" 		 }
+    def free			     { @Keyword "FREE" 			 }
+    def freespace		     { @Keyword "FREESPACE" 		 }
+    def freetext		     { @Keyword "FREETEXT" 		 }
+    def freetexttable		     { @Keyword "FREETEXTTABLE" 	 }
+    def freeze			     { @Keyword "FREEZE" 		 }
+    def from			     { @Keyword "FROM" 			 }
+    def full			     { @Keyword "FULL" 			 }
+    def fulltext		     { @Keyword "FULLTEXT"		 }
+    def function		     { @Keyword "FUNCTION" 		 }
+    def fusion			     { @Keyword "FUSION" 		 }
+	
     def @Com right x                 { @R "--" x 		 }
 
    Slope @Font lines @Break @Body

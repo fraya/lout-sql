@@ -284,22 +284,22 @@ def @Sql
     def cv                          { @Keyword "CV"                   }
     def cycle                       { @Keyword "CYCLE"                }
 
-    def data			     { @Keyword "DATA" 		 }
+    def data			     { @Keyword "DATA" 		         }
     def database		     { @Keyword "DATABASE" 		 }
     def databases		     { @Keyword "DATABASES" 		 }
     def datablocksize		     { @Keyword "DATABLOCKSIZE" 	 }
-    def date			     { @Keyword "DATE" 		 }
+    def date			     { @Keyword "DATE" 		 	 }
     def dateform		     { @Keyword "DATEFORM" 		 }
-    def day			     { @Keyword "DAY" 		 }
-    def days			     { @Keyword "DAYS" 		 }
+    def day			     { @Keyword "DAY" 		 	 }
+    def days			     { @Keyword "DAYS" 		 	 }
     def day_hour		     { @Keyword "DAY_HOUR" 		 }
     def day_microsecond		     { @Keyword "DAY_MICROSECOND" 	 }
     def day_minute		     { @Keyword "DAY_MINUTE" 		 }
     def day_second		     { @Keyword "DAY_SECOND" 		 }
-    def dbcc			     { @Keyword "DBCC" 		 }
+    def dbcc			     { @Keyword "DBCC" 		 	 }
     def dbinfo			     { @Keyword "DBINFO" 		 }
     def deallocate		     { @Keyword "DEALLOCATE" 		 }
-    def dec			     { @Keyword "DEC" 		 }
+    def dec			     { @Keyword "DEC" 		 	 }
     def decfloat		     { @Keyword "DECFLOAT" 		 }
     def decimal			     { @Keyword "DECIMAL" 		 }
     def declare			     { @Keyword "DECLARE" 		 }
@@ -313,15 +313,15 @@ def @Sql
     def delete			     { @Keyword "DELETE"		 }
     def delimiter		     { @Keyword "DELIMITER"		 }
     def dense_rank		     { @Keyword "DENSE_RANK"		 }
-    def	deny			     { @Keyword "DENY"		 }
-    def depth			     { @Keyword "DEPTH"		 }
-    def deref			     { @Keyword "DEREF"		 }
-    def desc			     { @Keyword "DESC"		 }
+    def	deny			     { @Keyword "DENY"		 	 }
+    def depth			     { @Keyword "DEPTH"		 	 }
+    def deref			     { @Keyword "DEREF"		 	 }
+    def desc			     { @Keyword "DESC"		 	 }
     def describe		     { @Keyword "DESCRIBE"		 }
     def descriptor		     { @Keyword "DESCRIPTOR"		 }
     def destroy			     { @Keyword "DESTROY"		 }
     def destructor		     { @Keyword "DESTRUCTOR"		 }
-    def deterministic		     { @Keyword "DETERMINISTIC"	 }
+    def deterministic		     { @Keyword "DETERMINISTIC"	 	 }
     def diagnostic		     { @Keyword "DIAGNOSTIC"		 }
     def diagnostics		     { @Keyword "DIAGNOSTICS"		 }
     def dictionary		     { @Keyword "DICTIONARY"		 }
@@ -329,7 +329,7 @@ def @Sql
     def disabled		     { @Keyword "DISABLED"		 }
     def disallow		     { @Keyword "DISALLOW"		 }
     def disconnect		     { @Keyword "DISCONNECT"		 }
-    def	disk			     { @Keyword "DISK"		 }
+    def	disk			     { @Keyword "DISK"		 	 }
     def distinct		     { @Keyword "DISTINCT"		 }
     def distinctrow		     { @Keyword "DISTINCTROW"		 }
     def distributed		     { @Keyword "DISTRIBUTED"		 }
@@ -338,24 +338,24 @@ def @Sql
     def document		     { @Keyword "DOCUMENT"		 }
     def domain			     { @Keyword "DOMAIN"		 }
     def double			     { @Keyword "DOUBLE"		 }
-    def drop			     { @Keyword "DROP"		 }
+    def drop			     { @Keyword "DROP"		 	 }
     def dssize			     { @Keyword "DSSIZE"		 }
-    def dual			     { @Keyword "DUAL"		 }
-    def dump			     { @Keyword "DUMP"		 }
+    def dual			     { @Keyword "DUAL"		 	 }
+    def dump			     { @Keyword "DUMP"		 	 }
     def dynamic			     { @Keyword "DYNAMIC"		 }
     
-    def each 			     { @Keyword "EACH" 		 }
-    def echo 			     { @Keyword "ECHO" 		 }
+    def each 			     { @Keyword "EACH"			 }
+    def echo 			     { @Keyword "ECHO" 		 	 }
     def editproc		     { @Keyword "EDITPROC" 		 }
     def element 		     { @Keyword "ELEMENT" 		 }
-    def else 			     { @Keyword "ELSE" 		 }
+    def else 			     { @Keyword "ELSE" 		 	 }
     def elseif			     { @Keyword "ELSEIF" 		 }
     def empty			     { @Keyword "EMPTY" 		 }
     def enabled			     { @Keyword "ENABLED" 		 }
     def enclosed		     { @Keyword "ENCLOSED" 		 }
     def encoding		     { @Keyword "ENCODING" 		 }
     def encryption		     { @Keyword "ENCRYPTION" 		 }
-    def end			     { @Keyword "END" 		 }
+    def end			     { @Keyword "END" 		 	 }
     def end_exec		     { @Keyword "END-EXEC" 		 }
     def ending			     { @Keyword "ENDING" 		 }
     def end_frame		     { @Keyword "END_FRAME" 		 }
@@ -366,7 +366,7 @@ def @Sql
     def errlvl			     { @Keyword "ERRLVL" 		 }
     def error			     { @Keyword "ERROR" 		 }
     def errorfiles		     { @Keyword "ERRORFILES" 		 }
-    def errortables		     { @Keyword "ERRORTABLES" 	 }
+    def errortables		     { @Keyword "ERRORTABLES" 	 	 }
     def escape			     { @Keyword "ESCAPE" 		 }
     def escaped			     { @Keyword "ESCAPED" 		 }
     def et			     { @Keyword "ET" 			 }
@@ -374,11 +374,11 @@ def @Sql
     def except			     { @Keyword "EXCEPT" 		 }
     def exception		     { @Keyword "EXCEPTION" 		 }
     def exclusive		     { @Keyword "EXCLUSIVE" 		 }
-    def exec			     { @Keyword "EXEC" 		 }		 
+    def exec			     { @Keyword "EXEC" 		 	 }		 
     def execute			     { @Keyword "EXECUTE" 		 }
     def exists			     { @Keyword "EXISTS" 		 }
-    def exit			     { @Keyword "EXIT" 		 }
-    def exp			     { @Keyword "EXP" 		 }
+    def exit			     { @Keyword "EXIT" 		 	 }
+    def exp			     { @Keyword "EXP" 		 	 }
     def explain			     { @Keyword "EXPLAIN" 		 }
     def external		     { @Keyword "EXTERNAL" 		 }
     def extract                      { @Keyword "EXTRACT" 		 }
@@ -414,7 +414,7 @@ def @Sql
     def function		     { @Keyword "FUNCTION" 		 }
     def fusion			     { @Keyword "FUSION" 		 }
 	
-    def @Com right x                 { @R "--" x 		 }
+    def @Com right x                 { @R "--" x			 }
 
    Slope @Font lines @Break @Body
 

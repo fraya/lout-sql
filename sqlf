@@ -66,6 +66,10 @@ export	"0" "1" "2" "3" "4" "5" "6" "7" "8" "9"
 
 	ge general generated get give global go goto grant graphic
 	group grouping groups gt
+
+	handler hash hashamp hashbakamp hashbucket hashrow having help
+	high_priority hold holdlock host hour hours hour_microsecond
+	hour_minute hour_second
 	
 	@Com
 
@@ -432,6 +436,23 @@ def @Sql
     def groups                       { @Keyword "GROUPS"                 }
     def gt                           { @Keyword "GT"                     }
 
+    def handler                      { @Keyword "HANDLER"                }
+    def hash                         { @Keyword "HASH"                   }
+    def hashamp                      { @Keyword "HASHAMP"                }
+    def hashbakamp                   { @Keyword "HASHBAKAMP"             }
+    def hashbucket                   { @Keyword "HASHBUCKET"             }
+    def hashrow                      { @Keyword "HASHROW"                }
+    def having                       { @Keyword "HAVING"                 }
+    def help                         { @Keyword "HELP"                   }
+    def high_priority                { @Keyword "HIGH_PRIORITY"          }
+    def hold                         { @Keyword "HOLD"                   }
+    def holdlock                     { @Keyword "HOLDLOCK"               }
+    def host                         { @Keyword "HOST"                   }
+    def hour                         { @Keyword "HOUR"                   }
+    def hours                        { @Keyword "HOURS"                  }
+    def hour_microsecond             { @Keyword "HOUR_MICROSECOND"       }
+    def hour_minute                  { @Keyword "HOUR_MINUTE"            }
+    def hour_second                  { @Keyword "HOUR_SECOND"            }
 	
     def @Com right x                 { @R "--" x			 }
 

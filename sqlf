@@ -63,6 +63,9 @@ export	"0" "1" "2" "3" "4" "5" "6" "7" "8" "9"
 	filter final first first_value float floor for force foreign
 	format found frame_row free freespace freetext freetexttable
 	freeze from full fulltext function fusion
+
+	ge general generated get give global go goto grant graphic
+	group grouping groups gt
 	
 	@Com
 
@@ -413,6 +416,22 @@ def @Sql
     def fulltext		     { @Keyword "FULLTEXT"		 }
     def function		     { @Keyword "FUNCTION" 		 }
     def fusion			     { @Keyword "FUSION" 		 }
+
+    def ge                           { @Keyword "GE"                     }
+    def general                      { @Keyword "GENERAL"                }
+    def generated                    { @Keyword "GENERATED"              }
+    def get                          { @Keyword "GET"                    }
+    def give                         { @Keyword "GIVE"                   }
+    def global                       { @Keyword "GLOBAL"                 }
+    def go                           { @Keyword "GO"                     }
+    def goto                         { @Keyword "GOTO"                   }
+    def grant                        { @Keyword "GRANT"                  }
+    def graphic                      { @Keyword "GRAPHIC"                }
+    def group                        { @Keyword "GROUP"                  }
+    def grouping                     { @Keyword "GROUPING"               }
+    def groups                       { @Keyword "GROUPS"                 }
+    def gt                           { @Keyword "GT"                     }
+
 	
     def @Com right x                 { @R "--" x			 }
 

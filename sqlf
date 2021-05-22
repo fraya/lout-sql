@@ -70,7 +70,24 @@ export	"0" "1" "2" "3" "4" "5" "6" "7" "8" "9"
 	handler hash hashamp hashbakamp hashbucket hashrow having help
 	high_priority hold holdlock host hour hours hour_microsecond
 	hour_minute hour_second
+
+	if ignore ilike immediate in inclusive inconsistent increment
+	index indicator infile inherit initial initialize initially
+	initiate inner inout input ins insensitive insert instead int
+	integer integerdate intersect intersection interval into
+	io_after_gtids io_before_gtids is isnull isobid isolation
+	iterate
+
+	key
+
+	not null
+
+	primary
 	
+	select
+
+	table
+
 	@Com
 
 def @Sql
@@ -453,7 +470,56 @@ def @Sql
     def hour_microsecond             { @Keyword "HOUR_MICROSECOND"       }
     def hour_minute                  { @Keyword "HOUR_MINUTE"            }
     def hour_second                  { @Keyword "HOUR_SECOND"            }
-	
+
+    def if                           { @Keyword "IF"                     }
+    def ignore                       { @Keyword "IGNORE"                 }
+    def ilike                        { @Keyword "ILIKE"                  }
+    def immediate                    { @Keyword "IMMEDIATE"              }
+    def in                           { @Keyword "IN"                     }
+    def inclusive                    { @Keyword "INCLUSIVE"              }
+    def inconsistent                 { @Keyword "INCONSISTENT"           }
+    def increment                    { @Keyword "INCREMENT"              }
+    def index                        { @Keyword "INDEX"                  }
+    def indicator                    { @Keyword "INDICATOR"              }
+    def infile                       { @Keyword "INFILE"                 }
+    def inherit                      { @Keyword "INHERIT"                }
+    def initial                      { @Keyword "INITIAL"                }
+    def initialize                   { @Keyword "INITIALIZE"             }
+    def initially                    { @Keyword "INITIALLY"              }
+    def initiate                     { @Keyword "INITIATE"               }
+    def inner                        { @Keyword "INNER"                  }
+    def inout                        { @Keyword "INOUT"                  }
+    def input                        { @Keyword "INPUT"                  }
+    def ins                          { @Keyword "INS"                    }
+    def insensitive                  { @Keyword "INSENSITIVE"            }
+    def insert                       { @Keyword "INSERT"                 }
+    def instead                      { @Keyword "INSTEAD"                }
+    def int                          { @Keyword "INT"                    }
+    def integer                      { @Keyword "INTEGER"                }
+    def integerdate                  { @Keyword "INTEGERDATE"            }
+    def intersect                    { @Keyword "INTERSECT"              }
+    def intersection                 { @Keyword "INTERSECTION"           }
+    def interval                     { @Keyword "INTERVAL"               }
+    def into                         { @Keyword "INTO"                   }
+    def io_after_gtids               { @Keyword "IO_AFTER_GTIDS"         }
+    def io_before_gtids              { @Keyword "IO_BEFORE_GTIDS"        }
+    def is                           { @Keyword "IS"                     }
+    def isnull                       { @Keyword "ISNULL"                 }
+    def isobid                       { @Keyword "ISOBID"                 }
+    def isolation                    { @Keyword "ISOLATION"              }
+    def iterate                      { @Keyword "ITERATE"                }
+
+    def key			     { @Keyword "KEY"			 }
+    
+    def not			     { @Keyword "NOT"			 }
+    def null			     { @Keyword "NULL"			 }
+
+    def primary			     { @Keyword "PRIMARY"		 }
+    
+    def select                       { @Keyword "SELECT"                 }
+
+    def table			     { @Keyword "TABLE"			 }
+    
     def @Com right x                 { @R "--" x			 }
 
    Slope @Font lines @Break @Body
